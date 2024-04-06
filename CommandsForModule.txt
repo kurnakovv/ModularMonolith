@@ -1,0 +1,38 @@
+dotnet new classlib -o src/Module2/Core/Module2.Application
+dotnet sln add src/Module2/Core/Module2.Application
+
+dotnet new classlib -o src/Module2/Core/Module2.Application.DI
+dotnet sln add src/Module2/Core/Module2.Application.DI
+
+dotnet new classlib -o src/Module2/Infrastructure/Module2.DataAccess
+dotnet sln add src/Module2/Infrastructure/Module2.DataAccess
+
+dotnet new classlib -o src/Module2/Infrastructure/Module2.AutoMapper
+dotnet sln add src/Module2/Infrastructure/Module2.AutoMapper
+
+dotnet new classlib -o src/Module2/Infrastructure/Module2.Infrastructure.DI
+dotnet sln add src/Module2/Infrastructure/Module2.Infrastructure.DI
+
+dotnet new classlib -o src/Module2/Infrastructure/Module2.EmailSender
+dotnet sln add src/Module2/Infrastructure/Module2.EmailSender
+
+dotnet new classlib -o src/Module2/Infrastructure/Module2.SMSService
+dotnet sln add src/Module2/Infrastructure/Module2.SMSService
+
+dotnet new classlib -o src/Module2/Presentation/Module2.Controller
+dotnet sln add src/Module2/Presentation/Module2.Controller
+
+dotnet new classlib -o src/Module2/Presentation/Module2.DTO
+dotnet sln add src/Module2/Presentation/Module2.DTO
+
+dotnet new classlib -o src/Module2/Contract/Module2.Validation
+dotnet sln add src/Module2/Contract/Module2.Validation
+
+dotnet new classlib -o src/Module2/Contract/Module2.Logic
+dotnet sln add src/Module2/Contract/Module2.Logic
+
+dotnet new xunit -o src/Module2/Test/Module2.UnitTest
+dotnet sln add src/Module2/Test/Module2.UnitTest
+
+dotnet new xunit -o src/Module2/Test/Module2.IntegrationTest
+dotnet sln add src/Module2/Test/Module2.IntegrationTest

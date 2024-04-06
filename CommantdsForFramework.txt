@@ -1,0 +1,11 @@
+dotnet new webapi -o src/WebAPI
+dotnet sln add src/WebAPI
+
+dotnet new classlib -o src/Shared/Shared.Core
+dotnet sln add src/Shared/Shared.Core
+
+dotnet new classlib -o src/Shared/Shared.Infrastructure
+dotnet sln add src/Shared/Shared.Infrastructure
+
+dotnet new classlib -o src/Shared/Shared.Presentation
+dotnet sln add src/Shared/Shared.Presentation

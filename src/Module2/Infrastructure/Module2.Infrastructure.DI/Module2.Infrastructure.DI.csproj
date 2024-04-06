@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Module2.DataAccess\Module2.DataAccess.csproj" />
+    <ProjectReference Include="..\Module2.EmailSender\Module2.EmailSender.csproj" />
+    <ProjectReference Include="..\Module2.SMSService\Module2.SMSService.csproj" />
+  </ItemGroup>
+
+</Project>
