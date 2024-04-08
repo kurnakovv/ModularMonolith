@@ -2,4 +2,5 @@
 
 public class FooValidateResponseDTO
 {
+    public required string Value { get; set; }
 }

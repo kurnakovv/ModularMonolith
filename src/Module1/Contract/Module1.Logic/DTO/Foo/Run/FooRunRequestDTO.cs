@@ -2,4 +2,5 @@
 
 public class FooRunRequestDTO
 {
+    public required string Value { get; set; }
 }
